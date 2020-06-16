@@ -20,10 +20,10 @@
 此前，可能需要点击**Pull requests**于**Projects**中间的**Action**进去点一下允许之类的
 
 ### 变量示例
-MAIL====>12345@qq.com
-PWD====>123456QWER
-RGN====>us-south
-CFNAME====>cxkjntm
+MAIL====>12345@qq.com  
+PWD====>123456QWER  
+RGN====>us-south  
+CFNAME====>cxkjntm  
 
 ## 其他
 
