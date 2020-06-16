@@ -12,7 +12,6 @@
 
 ### 2 设置此仓库的变量
 
-![](http://sennqm.iwater.pw/images/2020/06/16/TIM20200616181839.png)
 ![](http://tu.yaohuo.me/imgs/2020/06/750d9a9a867979ce.png)
 
 依次添加名为**MAIL**、**PWD**、**RGN**、**CFNAME**的变量
