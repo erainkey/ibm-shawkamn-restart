@@ -17,7 +17,9 @@
 依次添加名为**MAIL**、**PWD**、**RGN**、**CFNAME**的变量
 值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称
 
-### 3 点击star或者任意方法使Actions激活
+### 3 确定Github Action正常工作
+
+点击star或者任意方法使Actions激活
 
 此前，可能需要点击**Pull requests**于**Projects**中间的**Action**进去点一下允许之类的
 
