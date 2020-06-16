@@ -21,7 +21,7 @@
 
 点击star或者任意方法使Actions激活  
 
-此前，可能需要点击**Pull requests**于**Projects**中间的**Action**进去点一下允许之类的
+此前，可能需要点击**Pull requests**与**Projects**之间的**Action**进去点一下允许之类的
 
 ### 变量示例
 MAIL====>12345@qq.com  
