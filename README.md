@@ -12,6 +12,8 @@
 
 ### 2 设置此仓库的变量
 
+![](http://sennqm.iwater.pw/images/2020/06/16/TIM20200616181839.png)
+
 依次添加名为**MAIL**、**PWD**、**RGN**、**CFNAME**的变量
 值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称
 
