@@ -19,7 +19,7 @@
 
 ### 3 确定Github Action正常工作
 
-点击star或者任意方法(修改任意文件后提交)使Actions激活  
+点击修改任意文件后提交使Actions激活  
 
 此前，可能需要点击**Pull requests**与**Projects**之间的**Action**进去点一下允许之类的
 
