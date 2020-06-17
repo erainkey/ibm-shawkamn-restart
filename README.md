@@ -15,11 +15,11 @@
 ![](http://tu.yaohuo.me/imgs/2020/06/750d9a9a867979ce.png)
 
 依次添加名为**MAIL**、**PWD**、**RGN**、**CFNAME**的变量  
-值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称  
+值分别为邮箱(账号)、密码、区域、Cloud Foundry应用程序的名称(同时是链接前缀)  
 
 ### 3 确定Github Action正常工作
 
-点击star或者任意方法使Actions激活  
+点击star或者任意方法(修改任意文件后提交)使Actions激活  
 
 此前，可能需要点击**Pull requests**与**Projects**之间的**Action**进去点一下允许之类的
 
