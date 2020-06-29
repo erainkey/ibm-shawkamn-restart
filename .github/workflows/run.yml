@@ -16,7 +16,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install IBM CLI
-      run: curl -sL https://ibm.biz/idt-installer | bash
+      run: curl -sL https://raw.githubusercontent.com/IBM-Bluemix/developer-tools-installer/master/linux-installer/idt-installer | bash
       
     - name: Login IBM Cloud
       run: |
