@@ -2,28 +2,26 @@ name: IBM Cloud Auto Restart
 
 on:
   push:
-    branches: [ master ]
+    branches: master
   watch:
     types: started
   schedule:
     - cron: 15 20 * * *
 
 jobs:
-  build:
+  IBM-Cloud-CF-APP-Restart:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v2
 
-    - name: Install IBM CLI
-      run: curl -sL https://raw.githubusercontent.com/IBM-Bluemix/developer-tools-installer/master/linux-installer/idt-installer | bash
+    - name: Install CF CLI
+      run: |
+        curl -L "https://packages.cloudfoundry.org/stable?release=linux64-binary&source=github&version=v6" | tar -zx
+        sudo mv cf /usr/local/bin
       
-    - name: Login IBM Cloud
-      run: |
-        ibmcloud login -u ${{ secrets.MAIL }} -p ${{ secrets.PWD }} -r ${{ secrets.RGN }}
-    - name: Restart
-      run: |
-        ibmcloud target -g Default
-        ibmcloud target --cf
-        ibmcloud cf install
-        ibmcloud cf restart ${{ secrets.CFNAME }}
+    - name: Login CF
+      run: cf l -a https://api.${{ secrets.RGN }}.cf.cloud.ibm.com login -u ${{ secrets.MAIL }} -p ${{ secrets.PWD }}
+      
+    - name: Restart CF APP
+      run: cf rs ${{ secrets.CFNAME }}
